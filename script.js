@@ -23,7 +23,7 @@ do {
 quantityNumber = Math.floor (Number (quantityNumber)) ;
 
 do {
-    if (psevdoNumberUser % numberUser === 0) {
+    if (!(psevdoNumberUser % numberUser)) {
         console.log (psevdoNumberUser) ;
         ++ sevdoQuantityNumber ;
     }
@@ -46,7 +46,7 @@ while (quantityNumber === null || !Number (quantityNumber) || Number (quantityNu
 quantityNumber = Math.floor (Number (quantityNumber)) ;
 
 while (psevdoQuantityNumber !== quantityNumber) {
-    if (psevdoNumberUser % numberUser === 0) {
+    if (!(psevdoNumberUser % numberUser)) {
         console.log (psevdoNumberUser) ;
         ++psevdoQuantityNumber ;
     }
@@ -66,7 +66,7 @@ for (; quantityNumber === null || !Number (quantityNumber) || Number (quantityNu
 quantityNumber = Math.floor (Number (quantityNumber)) ;
 
 for (; psevdoQuantityNumber !== quantityNumber ; ++psevdoNumberUser) {
-    if (psevdoNumberUser % numberUser === 0) {
+    if (!(psevdoNumberUser % numberUser)) {
         console.log (psevdoNumberUser) ;
         ++psevdoQuantityNumber ;
     }
